@@ -22,9 +22,9 @@ export default class Header extends React.Component {
 						</div>
 						<h4>Full Stack Developer</h4><i className="fas fa-grip-lines" /><h4>AI Enthusiast</h4>
 						<div className="headerIcons" style={styles.headerIcons}>
-							<a href={messages.githubLink}><i className="fab fa-fw fa-1x fa-github" /></a>
-							<a href={messages.linkedInLink}><i className="fab fa-fw fa-1x fa-linkedin" /></a>
-							<a href={messages.mediumLink}><i className="fab fa-fw fa-1x fa-medium" /></a>
+							<a href={messages.githubLink} target="_blank" rel="noopener noreferrer"><i className="fab fa-fw fa-1x fa-github" /></a>
+							<a href={messages.linkedInLink} target="_blank" rel="noopener noreferrer"><i className="fab fa-fw fa-1x fa-linkedin" /></a>
+							<a href={messages.mediumLink} target="_blank" rel="noopener noreferrer"><i className="fab fa-fw fa-1x fa-medium" /></a>
 						</div>
 						<Link
 							activeClass="active"
