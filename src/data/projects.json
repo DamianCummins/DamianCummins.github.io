@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Serverless Data Flow Sequencing",
+        "type": "Blog",
+        "img": "serverless-data-flow.png",
+        "url": "https://medium.com/ibm-watson/serverless-data-flow-sequencing-with-watson-data-api-and-ibm-cloud-functions-a54d17d53710"
+    },
+    {
+        "title": "Womens World Cup 2019 Data Visualisation",
+        "type": "Project",
+        "img": "football-data-vis.png",
+        "url": "https://github.com/DamianCummins/statsbomb-football-event-visualisations/blob/master/Statsbomb%20Womens%20World%20Cup%202019%20visualisation.ipynb"
+    },
+    {
+        "title": "Watson OpenScale and Watson Assistant Sample Application",
+        "type": "Project",
+        "img": "watson-assistant.png",
+        "url": "https://github.com/DamianCummins/custom-watson-assistant-serve-engine"
+    },
+    {
+        "title": "Building a chat bot with Speech Recognition",
+        "type": "Blog",
+        "img": "chatbot.png",
+        "url": "https://medium.com/@DamianC_/building-a-chat-bot-with-speech-recognition-naming-logging-monitoring-repetition-ef44a9af173f"
+    },
+    {
+        "title": "AI Summit London 2019",
+        "type": "Conference",
+        "img": "aisummit.png",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:6545056351964446721/"
+    },
+    {
+        "title": "CV",
+        "type": "Experience",
+        "img": "cv.png",
+        "url": "https://damiancummins.github.io/resume/"
+    }
+]
