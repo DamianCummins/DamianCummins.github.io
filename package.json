@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://damiancummins.github.io/website",
+  "homepage": "https://damiancummins.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "@trendmicro/react-sidenav": "^0.4.5",
