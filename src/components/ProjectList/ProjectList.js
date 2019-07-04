@@ -18,7 +18,7 @@ export default class ProjectList extends React.Component {
 			<Row>
 				{projects.map((project, idx) => 
 					<Col className="project" xs="12" sm="6" md="4">
-						<a href={project.url}>
+						<a href={project.url} target="_blank" rel="noopener noreferrer">
 							<Card>
 								<CardImg width="100%" src={"/img/" + project.img}/>
 								<div className="overlay">

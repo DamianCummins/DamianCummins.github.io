@@ -9,18 +9,8 @@ class ContentHandler extends Component {
 	constructor(props) {
 		super(props);
 
-		this.state = {
-			page: "home"
-		}
-
-		this.navChangeHandler = this.navChangeHandler.bind(this);
+		this.state = {}
 	}
-
-	navChangeHandler = (selected) => {
-		this.setState({
-			page: selected
-		});
-	};
 
 	render() {
 		return(

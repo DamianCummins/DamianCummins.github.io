@@ -16,7 +16,7 @@ export default class Header extends React.Component {
 			<div className="content">
 				<Container className="headerContainer">
 					<div className="headerContent">
-						<img src={"/img/avatar.jpg"} className="headerAvatar" />
+						<img src={"/img/avatar.jpg"} className="headerAvatar" alt="avatar"/>
 						<div className="headerName">
 							<h1 className="headerFirstName">Damian</h1><h1 className="headerLastName">Cummins</h1>
 						</div>
