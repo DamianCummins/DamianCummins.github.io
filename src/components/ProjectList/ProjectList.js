@@ -20,7 +20,7 @@ export default class ProjectList extends React.Component {
 					<Col className="project" xs="12" sm="6" md="4">
 						<a href={project.url}>
 							<Card>
-								<CardImg width="100%" src={window.location.pathname + "/img/" + project.img}/>
+								<CardImg width="100%" src={"/img/" + project.img}/>
 								<div className="overlay">
 									<h3>{project.type}</h3>
 									<i className="fas fa-grip-lines fa-2x" />
