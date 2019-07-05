@@ -52,12 +52,12 @@ export default class Assistant extends React.Component {
 			<div>
 				<Container className="assistantContainer">
 					<div className="assistantTitle">
-						<h3>dAImian Assistant</h3>
+						<h3>Damian Assistant</h3>
 						<i className="fas fa-grip-lines fa-2x" />
 					</div>
 					<div className="assistantChat">
 						<GiftedChat
-							placeholder="Send your message to dAImian..."
+							placeholder="Send your message to Damian Assistant..."
 							messages={this.state.messages}
 							onSend={(messages) => this.onSend(messages)}
 							multiline={false}
