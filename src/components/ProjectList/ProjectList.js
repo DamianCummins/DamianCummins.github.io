@@ -15,12 +15,12 @@ export default class ProjectList extends React.Component {
 
 	renderProjectCards = () => {
 		return (
-			<Row>
+			<div>
 				{projects.map((project, idx) => 
 					<Col className="project" xs="12" sm="6" md="4">
 						<a href={project.url} target="_blank" rel="noopener noreferrer">
 							<Card>
-								<CardImg width="100%" src={"/img/" + project.img}/>
+								<CardImg src={"/img/" + project.img}/>
 								<div className="overlay">
 									<h3>{project.type}</h3>
 									<i className="fas fa-grip-lines fa-2x" />
@@ -30,7 +30,7 @@ export default class ProjectList extends React.Component {
 						</a>
 					</Col>
 				)}
-			</Row>
+			</div>
 		)
 	}
 
