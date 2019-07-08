@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, CardImg, CardTitle, CardText, Col, Row, Container } from "reactstrap";
+import { Card, CardImg,  Col, Row, Container } from "reactstrap";
 import messages from "./messages";
 import styles from "./ProjectList.scss";
 import projects from "../../data/projects.json"
@@ -17,7 +17,7 @@ export default class ProjectList extends React.Component {
 		return (
 			<Row>
 				{projects.map((project, idx) => 
-					<Col className="project" xs="12" sm="6" md="4">
+					<Col key={idx} className="project" xs="12" sm="6" md="4">
 						<a href={project.url} target="_blank" rel="noopener noreferrer">
 							<Card>
 								<CardImg width="100%" src={"/img/" + project.img}/>

@@ -30,7 +30,6 @@ export default class Assistant extends React.Component {
 
 	getMessage = async (text) => {
 		assistantUtil.predict(text).then((response) => {
-			console.log(response);
 			let message = {
 				_id: Math.round(Math.random() * 1000000).toString(),
 				text: response[0].response,

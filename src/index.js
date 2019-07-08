@@ -8,11 +8,7 @@ import * as serviceWorker from "./serviceWorker";
 import assistantUtil from "./lib/assistantUtil";
 
 assistantUtil.init().then(() => {
-    console.log("Loaded model");
     ReactDOM.render(<App />, document.getElementById("root"));
-    assistantUtil.predict("What work experience do you have?").then((response) => {
-        console.log(response);
-    });
 });
 
 

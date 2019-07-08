@@ -27,7 +27,6 @@ function predict(message) {
 
         const returnList = [];
         results.reverse().forEach((result) => {
-            console.log(result);
             returnList.push({
                 "tag": classes[result[0]],
                 "probability": result[1],
@@ -40,7 +39,6 @@ function predict(message) {
 
 function _getResponse(tag) {
     const tagObj = intents.intents.find((value) => value.tag === tag);
-    console.log(tagObj);
     return tagObj.responses[Math.floor(Math.random() * Math.floor(tagObj.responses.length))];
 }
 
