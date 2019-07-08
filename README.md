@@ -6,7 +6,7 @@ https://damiancummins.github.io/
 This React.js application provides links to projects, blogs and other professional information. 
 
 #### Damian Assistant
-The application includes a chatbot assistant that is backed by a Natural Language Multiclass Classifier running in the browser using TensorFlow.js. Check out the training notebook [here](https://github.com/DamianCummins/DamianCummins.github.io/blob/dev/Keras%20Assistant.ipynb), and the 
+The application includes a chatbot assistant that is backed by a Natural Language Multiclass Classifier running in the browser using TensorFlow.js. Check out the training notebook [here](https://github.com/DamianCummins/DamianCummins.github.io/blob/dev/Keras%20Assistant.ipynb).
 
 ### Branches
 
