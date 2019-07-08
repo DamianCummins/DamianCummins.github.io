@@ -1,5 +1,13 @@
 # Damian Cummins Personal Website
 
+https://damiancummins.github.io/
+
+### Description
+This React.js application provides links to projects, blogs and other professional information. 
+
+#### Damian Assistant
+The application includes a chatbot assistant that is backed by a Natural Language Multiclass Classifier running in the browser using TensorFlow.js. 
+
 ### Branches
 
 #### dev
