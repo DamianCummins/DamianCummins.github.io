@@ -16,7 +16,7 @@
 
 .assistantTitle {
     width: 100%;
-    background-color: var(--theme-color);
+    background-image: linear-gradient(to bottom right, var(--theme-color), var(--secondary-color));
     color: white;
     height: 200px;
     display: flex;
@@ -25,7 +25,7 @@
     flex-direction: column;
 
     .fa-grip-lines {
-        color: #888;
+        color: white;
     }
 }
 

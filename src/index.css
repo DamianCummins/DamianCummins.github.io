@@ -11,6 +11,7 @@ body {
 :root {  
   --main-color: #eee;
   --theme-color: #802;
+  --secondary-color: rgb(207, 1, 53);
   --hover-color: #444;
 }
 
