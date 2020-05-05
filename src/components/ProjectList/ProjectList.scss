@@ -10,7 +10,7 @@
     border-top-color: grey;
     border-top-width: 0.5px;
     width: 100%;
-    background-color: white;
+    background-color: var(--main-color);
     color: black;
     height: 200px;
     display: flex;
@@ -57,7 +57,7 @@
     justify-content: center;
     align-items: center;
     color: black;
-    background-image: white;
+    background-color: var(--main-color);
     padding: 30px;
     .fa-grip-lines {
         color: black;
@@ -66,7 +66,7 @@
 
 .overlay:hover {
     opacity: 0.9;
-    background-color: white;
+    background-color: var(--main-color);
 }
 
 
@@ -86,6 +86,6 @@ a:hover {
     }
     .overlay, .overlay:hover{
         opacity: 0.9;
-        background-color: white ;
+        background-color: var(--main-color) ;
     }
 }
