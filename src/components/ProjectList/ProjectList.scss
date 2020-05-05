@@ -6,9 +6,12 @@
     text-align: center;
 }
 .projectListTitle {
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 0.5px;
     width: 100%;
-    background-image: linear-gradient(to bottom right, var(--theme-color), var(--secondary-color));
-    color: white;
+    background-color: white;
+    color: black;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -16,7 +19,7 @@
     flex-direction: column;
 
     .fa-grip-lines {
-        color: white;
+        color: black;
     }
 }
 
@@ -53,17 +56,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-image: linear-gradient(to bottom right, rgb(70, 77, 116), rgb(109, 120, 180)) ;
+    color: black;
+    background-image: white;
     padding: 30px;
     .fa-grip-lines {
-        color: var(--theme-color);
+        color: black;
     }
 }
 
 .overlay:hover {
-    opacity: 1;
-    background-image: linear-gradient(to bottom right, rgba(70, 77, 116, 0.8), rgba(109, 120, 180, 0.8)) ;
+    opacity: 0.9;
+    background-color: white;
 }
 
 
@@ -82,7 +85,7 @@ a:hover {
         margin-top: 2px !important;
     }
     .overlay, .overlay:hover{
-        opacity: 1;
-        background-image: linear-gradient(to bottom right, rgba(70, 77, 116, 0.8), rgba(109, 120, 180, 0.8))  ;
+        opacity: 0.9;
+        background-color: white ;
     }
 }

@@ -1,3 +1,3 @@
 export default {
-	text: "Damian Cummins 2019"
+	text: "Damian Cummins 2020"
 };

@@ -15,9 +15,12 @@
 }
 
 .assistantTitle {
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 0.5px;
     width: 100%;
-    background-image: linear-gradient(to bottom right, var(--theme-color), var(--secondary-color));
-    color: white;
+    background-color: white;
+    color: black;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -25,7 +28,7 @@
     flex-direction: column;
 
     .fa-grip-lines {
-        color: white;
+        color: black;
     }
 }
 
