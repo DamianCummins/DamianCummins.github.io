@@ -30,9 +30,9 @@
         "url": "https://www.linkedin.com/feed/update/urn:li:activity:6545056351964446721/"
     },
     {
-        "title": "CV",
-        "type": "Experience",
-        "img": "cv.png",
-        "url": "https://damiancummins.github.io/resume/"
+        "title": "ObservableHQ Interactive D3 Charts",
+        "type": "Project",
+        "img": "observable-data-vis.png",
+        "url": "https://observablehq.com/@damiancummins/plotting-cumulative-expected-goals-for-fa-womens-super-lea"
     }
 ]
