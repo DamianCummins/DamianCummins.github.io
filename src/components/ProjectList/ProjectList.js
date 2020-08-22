@@ -1,19 +1,10 @@
 import React from "react";
 import { Card, CardImg,  Col, Row, Container } from "reactstrap";
-import messages from "./messages";
-import styles from "./ProjectList.scss";
+import "./ProjectList.scss";
 import projects from "../../data/projects.json"
 
-export default class ProjectList extends React.Component {
-	constructor(props) {
-		super(props);
-
-		this.state={};
-
-		this.renderProjectCards = this.renderProjectCards.bind(this);
-	}
-
-	renderProjectCards = () => {
+export default function ProjectList(props) {
+	const renderProjectCards = () => {
 		return (
 			<Row>
 				{projects.map((project, idx) => 
@@ -32,21 +23,19 @@ export default class ProjectList extends React.Component {
 				)}
 			</Row>
 		)
-	}
+	};
 
-	render() {
-		return(
-			<div>
-				<Container className="projectContainer">
-					<div className="projectListTitle">
-						<h3>Projects and Experience</h3>
-						<i className="fas fa-grip-lines fa-2x" />
-					</div>
-					<div className="projectListContent">
-						{this.renderProjectCards()}
-					</div>
-				</Container>
-			</div>
-		);
-	}
+	return(
+		<div>
+			<Container className="projectContainer">
+				<div className="projectListTitle">
+					<h3>Projects and Experience</h3>
+					<i className="fas fa-grip-lines fa-2x" />
+				</div>
+				<div className="projectListContent">
+					{renderProjectCards()}
+				</div>
+			</Container>
+		</div>
+	);
 }

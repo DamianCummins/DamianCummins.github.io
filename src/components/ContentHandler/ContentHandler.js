@@ -1,30 +1,19 @@
-import React, {Component} from "react";
+import React from "react";
 import Header from "../../components/Header";
 import ProjectList from "../../components/ProjectList";
 import Assistant from "../../components/Assistant";
 import Footer from "../../components/Footer";
-import styles from "./ContentHandler.scss";
+import "./ContentHandler.scss";
 
-class ContentHandler extends Component {
-
-	constructor(props) {
-		super(props);
-
-		this.state = {}
-	}
-
-	render() {
-		return(
-			<div className="content">
-				<div className="maincontent" style={styles.maincontent}>
-					<Header/>
-					<ProjectList/>
-					<Assistant/>
-					<Footer/>
-				</div>
+export default function ContentHandler(props) {
+	return(
+		<React.Fragment>
+			<div className="maincontent">
+				<Header/>
+				<ProjectList/>
+				<Assistant/>
+				<Footer/>
 			</div>
-		);
-	}
+		</React.Fragment>
+	);
 }
-
-export default ContentHandler;
