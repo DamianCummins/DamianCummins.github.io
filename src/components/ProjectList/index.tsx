@@ -1,9 +1,10 @@
 import React from "react";
-import { Card, CardImg,  Col, Row, Container } from "reactstrap";
 import "./ProjectList.scss";
 import projects from "../../data/projects.json"
 
-export default function ProjectList(props) {
+const { Card, CardImg,  Col, Row, Container } = require('reactstrap');
+
+export default function ProjectList() {
 	const renderProjectCards = () => {
 		return (
 			<Row>

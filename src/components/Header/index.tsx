@@ -1,10 +1,11 @@
-import React from "react";
-import { Container } from "reactstrap";
+import React from 'react';
 import { Link } from "react-scroll";
 import messages from "./messages";
 import "./Header.scss";
 
-export default function Header(props) {
+const { Container } = require('reactstrap');
+
+export default function Header() {
 	return(
 		<div className="content">
 			<Container className="headerContainer">

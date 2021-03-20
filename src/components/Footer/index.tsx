@@ -1,9 +1,9 @@
 import React from "react";
-import { Container } from "reactstrap";
 import messages from "./messages";
 import "./Footer.scss";
+const { Container } = require("reactstrap");
 
-export default function Footer(props) {
+export default function Footer() {
 	return (
 		<React.Fragment>
 			<Container>
